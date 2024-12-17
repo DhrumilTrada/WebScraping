@@ -18,9 +18,7 @@ for i in range(1, 20):
         with open(f"data/{query}_{file}.html","w",encoding = "utf-8") as f:
             if d is not None:
                 f.write(d)
-
             file +=1
-
 
     time.sleep(2)
 driver.close()
